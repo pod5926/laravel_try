@@ -13,6 +13,7 @@
             {{ session('status') }}
           </div>
           @endif
+          <h1>Index</h1>
           <form action="{{ route('contact.create') }}" method="get">
             <button class="btn btn-primary" type="submit">新規登録</button>
           </form>
